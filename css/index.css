@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:; /* removed to recolor*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,60 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* MY CODE STARTS HERE */
+/*----------------------------------------------------*/
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 20px;
+}
+header nav a{
+    color: grey;
+    text-decoration: none;
+    margin:;
+}
+
+.top-content{
+    margin: 30px;
+}
+h2{
+    font-weight: 600;
+}
+.middle-content{
+    margin: 30px;
+}
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
 }
