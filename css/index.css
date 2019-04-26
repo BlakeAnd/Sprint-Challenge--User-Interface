@@ -158,7 +158,12 @@ header nav{
 header nav a{
     color: grey;
     text-decoration: none;
-    margin:;
+    
+}
+header nav a:hover{
+    color: black;
+    transform: scale(1.1);
+    transition: .2s;
 }
 
 .top-content{
@@ -201,8 +206,13 @@ h2{
 .box10{
     background: dodgerblue;
 }
-/*END OF CSS FOR INDEX PAGE*/
-/* BEGINNING OF CSS FOR ABOUT PAGE*/
+footer nav a:hover{
+    color:lightgrey;
+    transform: scale(1.1);
+    transition: .2s;
+}
+/*END OF CSS FOR INDEX PAGE (USE FOR ABOUT PAGE ALSO)*/
+/* BEGINNING OF CSS ExCLUSIVELY FOR ABOUT PAGE*/
 div .about-page{
     display: flex;
     flex-direction: column;
@@ -211,14 +221,11 @@ div .about-page{
 .top-about{
     padding: 20px 4% 20px 4%;
     border-bottom: 1.5px dashed black;
-    width:;
 }
 .about-row{
     padding: 20px 0 20px 0;
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    margin:;
 }
 .about-column{
     width: 46%;
@@ -227,9 +234,7 @@ div .about-page{
     border-bottom: 1.5px dashed black;
 }
 .about-column img{
-    width: 100%;
     height: auto;
-    margin-right:;
 }
 h2.about-h2{
     margin: 20px 0 20px 0;
@@ -246,5 +251,4 @@ h2.about-h2{
 }
 .bottom-about{
     padding: 20px 4% 20px 4%;
-    width: 100%;
 }
